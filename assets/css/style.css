@@ -732,7 +732,8 @@ code {
 }
 
 .publication-actions,
-.presentation-actions {
+.presentation-actions,
+.teaching-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;

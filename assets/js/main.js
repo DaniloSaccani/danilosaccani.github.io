@@ -434,6 +434,10 @@
     const tags = renderTags(entry.tags);
     const institution = entry.institution || "TODO";
     const period = entry.period || "TODO";
+    const websiteLabel = entry.category === "workshops" ? "Workshop website" : "Website";
+    const website = entry.url
+      ? `<div class="teaching-actions"><a class="small-link" href="${escapeAttribute(entry.url)}" target="_blank" rel="noopener noreferrer">${websiteLabel}</a></div>`
+      : "";
 
     return `
       <article class="teaching-card">
@@ -441,6 +445,7 @@
         <p class="teaching-meta">${escapeHtml(entry.role || "TODO")} - ${escapeHtml(institution)} - ${escapeHtml(period)}</p>
         <p>${escapeHtml(entry.description || "Add a short description in assets/data/teaching.json.")}</p>
         ${tags}
+        ${website}
       </article>
     `;
   }

@@ -162,6 +162,12 @@ workshops
 service
 ```
 
+Entries can also include a `url` field. When present, the teaching page shows it as a visible website button, for example:
+
+```json
+"url": "https://sites.google.com/view/dmpc-workshop-ecc-2026"
+```
+
 ## Change colors and styling
 
 Edit the CSS variables at the top of:
