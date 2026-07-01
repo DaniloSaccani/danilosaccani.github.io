@@ -10,10 +10,10 @@
       "type": "preprint",
       "status": "submitted to Transaction Control Systems Technology",
       "links": {
-        "pdf": "XXXX",
-        "arxiv": "XXX",
-        "doi": "XXX",
-        "code": "XXX",
+        "pdf": "TODO",
+        "arxiv": "TODO",
+        "doi": "TODO",
+        "code": "TODO",
         "slides": ""
       },
       "tags": ["MPC", "multi-agent systems", "safety", "distributed control"]
