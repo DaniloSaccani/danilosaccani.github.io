@@ -146,22 +146,6 @@
     {
       "title": "Model Predictive Control for Constrained Navigation of Autonomous Vehicles",
       "authors": "Danilo Saccani",
-      "venue": "PhD thesis, Politecnico di Milano",
-      "year": "2023",
-      "type": "thesis",
-      "status": "published",
-      "links": {
-        "pdf": "https://www.politesi.polimi.it/retrieve/4dae6d8c-249f-4864-a408-b89ccaff72e0/PHD_thesis_Saccani.pdf",
-        "arxiv": "",
-        "doi": "",
-        "code": "",
-        "slides": ""
-      },
-      "tags": ["MPC", "autonomous vehicles", "safe navigation", "constrained control"]
-    },
-    {
-      "title": "Model Predictive Control for Constrained Navigation of Autonomous Vehicles",
-      "authors": "Danilo Saccani",
       "venue": "Special Topics in Information Technology, SpringerBriefs in Applied Sciences and Technology",
       "year": "2024",
       "type": "book-chapter",

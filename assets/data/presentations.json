@@ -14,16 +14,16 @@
       "tags": ["MPC", "Safe Learning", "safety filters"]
     },
     {
-      "title": "Distributed MPC for Multi-Agent Systems",
-      "event": "TODO workshop or course",
-      "type": "workshop",
-      "location": "TODO",
-      "date": "TODO",
-      "year": "2025",
-      "description": "Editable placeholder for a presentation on distributed MPC, connectivity constraints, and multi-agent coordination.",
-      "pdf": "assets/presentations/example-presentation.pdf",
+      "title": "Stability-Preserving Online Adaptation of Neural Closed-loop Maps",
+      "event": "conference",
+      "type": "conference",
+      "location": "ECC 2026, Reykjavik, Iceland",
+      "date": "9/7/2026",
+      "year": "2026",
+      "description": "This talk presents a framework for safely adapting neural closed-loop maps online while preserving stability guarantees. The approach enables neural controllers to improve or adjust their behavior during operation without compromising the certified stability properties of the closed-loop system.",
+      "pdf": "assets/presentations/ECC26_onlineSLS.pdf",
       "video": "",
-      "tags": ["Distributed MPC", "Multi-Agent Systems", "connectivity"]
+      "tags": ["Neural Networks", "Online Adaptation", "stability guarantees"]
     },
     {
       "title": "Neural Controllers with Stability Guarantees",
