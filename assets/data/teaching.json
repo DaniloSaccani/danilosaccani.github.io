@@ -5,9 +5,9 @@
       "category": "teaching",
       "title": "Fondamenti di Automatica",
       "role": "Teaching assistant",
-      "institution": "TODO",
-      "period": "TODO",
-      "description": "Editable entry for teaching assistant activities in fundamental automatic control.",
+      "institution": "Politecnico di Milano",
+      "period": "2020-2022",
+      "description": "Teaching assistant for *Fondamenti di Automatica*, supporting a course on dynamical systems, stability, transfer functions, frequency-domain analysis, and feedback control.",
       "tags": ["control theory", "teaching"]
     },
     {
@@ -32,18 +32,28 @@
       "category": "workshops",
       "title": "ECC workshops co-organization",
       "role": "Co-organizer",
-      "institution": "European Control Conference / TODO",
-      "period": "TODO",
-      "description": "Editable entry for workshop co-organization activities.",
+      "institution": "European Control Conference / Reykjavik, Iceland",
+      "period": "2026",
+      "description": "Workshop on Distributed MPC for Multi-Agent Systems",
+      "url": "https://sites.google.com/view/dmpc-workshop-ecc-2026",
+      "tags": ["workshop", "organization"]
+    },
+       {
+      "category": "workshops",
+      "title": "ECC workshops co-organization",
+      "role": "Co-organizer",
+      "institution": "European Control Conference / Stockholm, Sweden",
+      "period": "2024",
+      "description": "Workshop on Neural Network control with stability and performance guarantees",
+      "url": "https://sites.google.com/view/ecc24-nncontrol",
       "tags": ["workshop", "organization"]
     },
     {
       "category": "service",
       "title": "Reviewing and academic service",
-      "role": "Reviewer / service",
-      "institution": "TODO",
+      "role": "Reviewer",
       "period": "Ongoing",
-      "description": "Editable entry for journal, conference, and community service.",
+      "description": "Served as reviewer for over 50 submissions to leading international control journals and conferences, including CDC, ECC, ACC, L-CSS, IEEE TAC, IEEE TCST, and Automatica.",
       "tags": ["reviewing", "service"]
     }
   ]
