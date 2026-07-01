@@ -2,6 +2,22 @@
   "_comment": "Seed publication list for the website. Edit the publications array to add, remove, or reorder entries. Use TODO for details that still need verification.",
   "publications": [
       {
+        "title": "Risk-Aware Stability-Preserving Design of Neural Controllers with Conformal Verification",
+        "authors": "Laura Meroi, Sabri El Amrani, Danilo Saccani, Dario Piga, Giancarlo Ferrari-Trecate",
+        "venue": "2026 IEEE Conference on Decision and Control (CDC)",
+        "year": "2026",
+        "type": "conference",
+        "status": "submitted CDC 2026",
+        "links": {
+          "pdf": "TODO",
+          "arxiv": "TODO",
+          "doi": "",
+          "code": "https://github.com/DecodEPFL/Conformal_PB",
+          "slides": ""
+        },
+        "tags": ["safe learning", "neural control", "conformal prediction", "risk-aware control", "stability"]
+      },
+      {
       "title": "Anytime Plug-and-Play Control with Contract-Based Distributed MPC",
       "authors": "Sabrina Bodmer, Danilo Saccani, Melanie N. Zeilinger, Andrea Carron",
       "venue": "arXiv preprint",
@@ -286,22 +302,6 @@
         "slides": ""
       },
       "tags": ["MPC", "learning-based control", "building control", "energy systems"]
-    },
-    {
-      "title": "Risk-Aware Stability-Preserving Design of Neural Controllers with Conformal Verification",
-      "authors": "Laura Meroi, Sabri El Amrani, Danilo Saccani, Dario Piga, Giancarlo Ferrari-Trecate",
-      "venue": "2026 IEEE Conference on Decision and Control (CDC)",
-      "year": "2026",
-      "type": "conference",
-      "status": "submitted CDC 2026",
-      "links": {
-        "pdf": "",
-        "arxiv": "",
-        "doi": "",
-        "code": "https://github.com/DecodEPFL/Conformal_PB",
-        "slides": ""
-      },
-      "tags": ["safe learning", "neural control", "conformal prediction", "risk-aware control", "stability"]
     }
   ]
 }
