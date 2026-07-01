@@ -2,14 +2,14 @@
   "_comment": "To add a new presentation, upload the PDF to assets/presentations/ and add a corresponding entry in the presentations array.",
   "presentations": [
     {
-      "title": "Predictive Safety Filters and Learning-Based Control",
-      "event": "TODO seminar or conference",
-      "type": "seminar",
-      "location": "TODO",
-      "date": "TODO",
+      "title": "Safety-Aware Performance Boosting for Constrained Nonlinear Systems",
+      "event": "conference",
+      "type": "conference",
+      "location": "ECC 2026, Reykjavik, Iceland",
+      "date": "8/7/2026",
       "year": "2026",
-      "description": "Editable placeholder for a talk on predictive safety filters and learning-based control.",
-      "pdf": "assets/presentations/example-presentation.pdf",
+      "description": "This talk presents a learning-based control approach for constrained nonlinear systems that improves closed-loop performance while preserving safety guarantees. The method combines a stabilizing safety mechanism with an adaptive performance layer, ensuring constraint satisfaction and stability even as the controller exploits learned behavior online.",
+      "pdf": "assets/presentations/ECC26_PSF.pdf",
       "video": "",
       "tags": ["MPC", "Safe Learning", "safety filters"]
     },
