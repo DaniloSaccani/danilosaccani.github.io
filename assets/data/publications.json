@@ -29,7 +29,7 @@
         "arxiv": "TODO",
         "slides": ""
       },
-      "tags": ["MPC", "multi-agent systems", "safety", "distributed control"]
+      "tags": ["MPC", "multi-agent systems", "safety", "distributed MPC", "plug-and-play"]
     },
     {
       "title": "Safety-Aware Performance Boosting for Constrained Nonlinear Systems",
@@ -45,7 +45,7 @@
         "code": "https://github.com/DecodEPFL/PSF_PB",
         "slides": ""
       },
-      "tags": ["MPC", "predictive safety filters", "safe learning", "performance boosting", "stability"]
+      "tags": ["MPC", "predictive safety filters", "safe learning", "neural control", "stability"]
     },
     {
       "title": "Stability-Preserving Online Adaptation of Neural Closed-loop Maps",
@@ -64,7 +64,7 @@
       "tags": ["safe learning", "neural control", "online adaptation", "stability", "small-gain"]
     },
     {
-      "title": "MAD: A Learning-Based Framework for Optimizing Nonlinear Distributed Control Systems",
+      "title": "MAD: A Magnitude And Direction Policy Parametrization for Stability Constrained Reinforcement Learning",
       "authors": "Luca Furieri, Sucheth Shenoy, Danilo Saccani, Andrea Martin, Giancarlo Ferrari-Trecate",
       "venue": "2025 IEEE Conference on Decision and Control (CDC)",
       "year": "2025",
@@ -77,7 +77,7 @@
         "code": "",
         "slides": ""
       },
-      "tags": ["distributed control", "safe learning", "neural control", "stability"]
+      "tags": ["reinforcement learning", "safe learning", "neural control", "stability"]
     },
     {
       "title": "Learning stabilising policies for constrained nonlinear systems",
@@ -125,7 +125,7 @@
         "code": "",
         "slides": ""
       },
-      "tags": ["distributed control", "safe learning", "neural control", "Neur-SLS", "stability"]
+      "tags": ["distributed control", "safe learning", "neural control", "Neur-SLS", "stability", "multi-agent systems"]
     },
     {
       "title": "Unconstrained learning of networked nonlinear systems via free parametrization of stable interconnected operators",
@@ -141,7 +141,7 @@
         "code": "",
         "slides": ""
       },
-      "tags": ["distributed control", "safe learning", "neural control", "stability", "REN"]
+      "tags": ["distributed systems", "safe learning", "dissipativity", "multi-agent systems", "neural networks"]
     },
     {
       "title": "Model Predictive Control for Constrained Navigation of Autonomous Vehicles",
@@ -157,7 +157,7 @@
         "code": "",
         "slides": ""
       },
-      "tags": ["MPC", "autonomous vehicles", "safe navigation", "constrained control"]
+      "tags": ["MPC", "autonomous vehicles", "safe navigation", "constrained control", "robust MPC"]
     },
     {
       "title": "Model Predictive Control for Multi-Agent Systems under Limited Communication and Time-Varying Network Topology",
@@ -173,7 +173,7 @@
         "code": "",
         "slides": ""
       },
-      "tags": ["MPC", "multi-agent systems", "distributed control", "plug-and-play", "safe control"]
+      "tags": ["MPC", "multi-agent systems", "distributed MPC", "plug-and-play", "safe control"]
     },
     {
       "title": "Multi-agent Distributed Model Predictive Control with Connectivity Constraint",
@@ -208,7 +208,7 @@
       "tags": ["MPC", "robust MPC", "tube MPC", "multi-step predictors", "uncertainty"]
     },
     {
-      "title": "Autonomous Navigation of Interconnected Tethered Drones in an Unknown Environment",
+      "title": "Autonomous navigation of interconnected tethered drones in a partially known environment with obstacles",
       "authors": "Michele Bolognini, Danilo Saccani, Fabrizio Cirillo, Lorenzo Fagiano",
       "venue": "2022 IEEE Conference on Decision and Control (CDC), pp. 3315–3320",
       "year": "2022",
@@ -221,12 +221,12 @@
         "code": "",
         "slides": ""
       },
-      "tags": ["MPC", "UAVs", "tethered drones", "safe navigation", "robotics"]
+      "tags": ["MPC", "UAVs", "tethered drones", "safe navigation", "robotics", "multi-agent systems"]
     },
     {
       "title": "Multitrajectory Model Predictive Control for Safe UAV Navigation in an Unknown Environment",
       "authors": "Danilo Saccani, Leonardo Cecchin, Lorenzo Fagiano",
-      "venue": "IEEE Transactions on Control Systems Technology, 31(5):1982–1997",
+      "venue": "IEEE Transactions on Control Systems Technology",
       "year": "2023",
       "type": "journal",
       "status": "published",
@@ -240,9 +240,9 @@
       "tags": ["MPC", "multi-trajectory MPC", "UAVs", "safe navigation", "unknown environment", "robust MPC"]
     },
     {
-      "title": "G-BEAM: Graph-Based Bayesian Estimation and Autonomous Monitoring for Unknown Environments",
+      "title": "G-BEAM: Graph-Based Exploration And Mapping for Autonomous Vehicles",
       "authors": "Leonardo Cecchin, Danilo Saccani, Lorenzo Fagiano",
-      "venue": "2021 IEEE Conference on Control Technology and Applications (CCTA), pp. 1011–1016",
+      "venue": "2021 IEEE Conference on Control Technology and Applications (CCTA)",
       "year": "2021",
       "type": "conference",
       "status": "published",
@@ -257,7 +257,7 @@
     },
     {
       "title": "Autonomous UAV Navigation in an Unknown Environment via Multi-Trajectory Model Predictive Control",
-      "authors": "Danilo Saccani, Leonardo Cecchin, Lorenzo Fagiano",
+      "authors": "Danilo Saccani, Lorenzo Fagiano",
       "venue": "2021 European Control Conference (ECC), pp. 1577–1582",
       "year": "2021",
       "type": "conference",
