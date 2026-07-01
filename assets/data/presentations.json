@@ -26,28 +26,28 @@
       "tags": ["Neural Networks", "Online Adaptation", "stability guarantees"]
     },
     {
-      "title": "Neural Controllers with Stability Guarantees",
-      "event": "TODO invited talk",
-      "type": "invited talk",
-      "location": "TODO",
-      "date": "TODO",
-      "year": "2025",
-      "description": "Editable placeholder for a talk on neural controllers, stable operators, and closed-loop guarantees.",
-      "pdf": "assets/presentations/example-presentation.pdf",
+      "title": "Homothetic tube model predictive control with multi-step predictors",
+      "event": "conference",
+      "type": "conference",
+      "location": "ACC 2024, Toronto, Canada",
+      "date": "13/7/2024",
+      "year": "2024",
+      "description": "This talk presents a tube-based model predictive control framework for uncertain systems using multi-step predictors. The approach combines homothetic tube parametrizations with learned or data-driven prediction models to reduce conservatism while maintaining robust constraint satisfaction.",
+      "pdf": "assets/presentations/ACC_Saccani.pdf",
       "video": "",
-      "tags": ["Neural Control", "stability", "robustness"]
+      "tags": ["MPC", "Robust Control", "tube MPC", "multi-step predictors"]
     },
     {
-      "title": "Certificate Reservoirs for Reliable Lifelong Control",
-      "event": "TODO seminar",
-      "type": "seminar",
-      "location": "TODO",
-      "date": "TODO",
+      "title": "ADMM vs Contract Based Methods for distributed MPC",
+      "event": "ECC 2026, workshop",
+      "type": "workshop ",
+      "location": "ECC 2026, Reykjavik, Iceland",
+      "date": "7/7/2026",
       "year": "2026",
-      "description": "Editable placeholder for ongoing research on certified flexibility and online adaptation.",
-      "pdf": "assets/presentations/example-presentation.pdf",
+      "description": "Editable placeholder for a talk on neural controllers, stable operators, and closed-loop guarantees.",
+      "pdf": "assets/presentations/ECC_workshop_DMPC.pdf",
       "video": "",
-      "tags": ["Safe Learning", "certificates", "online adaptation"]
+      "tags": ["Distributed MPC", "contracts", "ADMM", "multi-agent systems"]
     }
   ]
 }
