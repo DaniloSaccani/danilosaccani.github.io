@@ -1,7 +1,6 @@
 {
   "_comment": "Seed publication list for the website. Edit the publications array to add, remove, or reorder entries. Use TODO for details that still need verification.",
   "publications": [
-    [
       {
       "title": "Anytime Plug-and-Play Control with Contract-Based Distributed MPC",
       "authors": "Sabrina Bodmer, Danilo Saccani, Melanie N. Zeilinger, Andrea Carron",
@@ -306,6 +305,5 @@
       },
       "tags": ["safe learning", "neural control", "conformal prediction", "risk-aware control", "stability"]
     }
-  ]
   ]
 }
