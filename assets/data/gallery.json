@@ -10,7 +10,7 @@
     "title": "Drone flight experiments",
     "caption": "Flight experiments provide a concrete testbed for studying safety, robustness, and performance in autonomous systems.",
     "image": "assets/img/lab/drone-flying.jpg",
-    "video": "assets/videos/drone_demo.mp4",
+    "video": "https://www.youtube.com/watch?v=-_kOhl6AI68",
     "tags": ["Autonomy", "Safety", "Robust control", "MPC", "Exploration"]
   },
   {
@@ -24,7 +24,7 @@
     "title": "Small-scale autonomous vehicles",
     "caption": "Small-scale vehicle platforms and student projects are useful testbeds for MPC, distributed coordination, and learning-based control.",
     "image": "assets/img/lab/microcars.png",
-    "video": "assets/videos/microcars-demo.mp4",
+    "video": "https://www.youtube.com/watch?v=TODO",
     "tags": ["Distributed MPC", "Multi-agent systems", "Autonomous vehicles"]
   }
 ]

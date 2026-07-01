@@ -46,11 +46,7 @@ Put lab pictures in:
 assets/img/lab/
 ```
 
-Put videos in:
-
-```text
-assets/videos/
-```
+For videos, prefer linking to YouTube rather than committing large video files to the repository. Paste the YouTube watch URL in the `video` field.
 
 Recommended image filenames:
 
@@ -61,10 +57,10 @@ tethered-drone.jpg
 microcars.jpg
 ```
 
-Recommended video filename:
+Example YouTube video value:
 
 ```text
-microcars-demo.mp4
+https://www.youtube.com/watch?v=YOUR_VIDEO_ID
 ```
 
 Each gallery entry supports:
@@ -79,7 +75,7 @@ Each gallery entry supports:
 }
 ```
 
-If an image is missing, the site shows a clean placeholder. If the `video` field is empty, the "Watch demo" button is hidden. Do not autoplay videos.
+If an image is missing, the site shows a clean placeholder. If the `video` field is empty, the "Watch demo" button is hidden. YouTube links open in a new tab; videos are not embedded and do not autoplay.
 
 If other people appear in photos, make sure you have their consent before publishing, or crop/blur faces before uploading the images.
 

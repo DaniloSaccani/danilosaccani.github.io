@@ -150,7 +150,7 @@
       ? `<img src="${escapeAttribute(image)}" alt="${escapeAttribute(title)}" loading="lazy" data-fallback-image>`
       : "";
     const videoMarkup = entry.video
-      ? `<a class="small-link" href="${escapeAttribute(entry.video)}" target="_blank" rel="noopener">Watch demo</a>`
+      ? `<a class="small-link" href="${escapeAttribute(entry.video)}" target="_blank" rel="noopener noreferrer">Watch demo</a>`
       : "";
 
     return `
