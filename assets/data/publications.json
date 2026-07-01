@@ -237,7 +237,7 @@
         "code": "",
         "slides": ""
       },
-      "tags": ["MPC", "multi-trajectory MPC", "UAVs", "safe navigation", "unknown environment"]
+      "tags": ["MPC", "multi-trajectory MPC", "UAVs", "safe navigation", "unknown environment", "robust MPC"]
     },
     {
       "title": "G-BEAM: Graph-Based Bayesian Estimation and Autonomous Monitoring for Unknown Environments",
