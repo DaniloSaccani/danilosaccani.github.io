@@ -11,7 +11,7 @@
       "tags": ["control theory", "teaching"]
     },
     {
-      "category": "PhD courses",
+      "category": "teaching",
       "title": "EECI PhD course: Neural Networks for Optimal Control",
       "role": "Lecturer and organizer",
       "institution": "IGSC (International Graduate School on Control)",
@@ -20,7 +20,7 @@
       "tags": ["optimal control", "neural networks", "PhD course", "stability guarantees"]
     },
     {
-      "category": "tutorials",
+      "category": "teaching",
       "title": "Distributed MPC course",
       "role": "Lecturer and organizer",
       "institution": "ETH Zurich",
@@ -30,21 +30,21 @@
     },
     {
       "category": "workshops",
-      "title": "ECC workshops co-organization",
-      "role": "Co-organizer and speaker",
+      "title": "Distributed MPC for Multi-Agent Systems",
+      "role": "Organizer and speaker",
       "institution": "European Control Conference / Reykjavik, Iceland",
       "period": "2026",
-      "description": "Workshop on Distributed MPC for Multi-Agent Systems",
+      "description": "Organizer and speaker of the ECC 2026 workshop Distributed MPC for Multi-Agent Systems, focused on scalable, safe, and real-time DMPC methods for multi-agent systems, including distributed optimization, learning-accelerated DMPC, and contract-based coordination.",
       "url": "https://sites.google.com/view/dmpc-workshop-ecc-2026",
       "tags": ["workshop", "Distributed MPC", "organization", "multi-agent systems"]
     },
        {
       "category": "workshops",
       "title": "ECC workshops co-organization",
-      "role": "Co-organizer",
+      "role": "Organizer and speaker",
       "institution": "European Control Conference / Stockholm, Sweden",
       "period": "2024",
-      "description": "Workshop on Neural Network control with stability and performance guarantees",
+      "description": "Organizer and speaker of the ECC 2024 pre-conference workshop Neural Network Control with Stability and Performance Guarantees, focused on NN-based control methods that preserve closed-loop stability, robustness, and performance guarantees.",
       "url": "https://sites.google.com/view/ecc24-nncontrol",
       "tags": ["workshop", "Neural Networks control","organization"]
     },
