@@ -44,10 +44,22 @@
       "location": "ECC 2026, Reykjavik, Iceland",
       "date": "7/7/2026",
       "year": "2026",
-      "description": "Editable placeholder for a talk on neural controllers, stable operators, and closed-loop guarantees.",
+      "description": "This talk presents distributed MPC methods for mobile multi-agent systems operating under time-varying communication and safety constraints. It compares iterative ADMM-based optimization with contract-based approaches, showing how multi-agent teams can safely handle plug-and-play operations, collision avoidance, and connectivity maintenance in changing networks.",
       "pdf": "assets/presentations/ECC_workshop_DMPC.pdf",
       "video": "",
       "tags": ["Distributed MPC", "contracts", "ADMM", "multi-agent systems"]
+    },
+    {
+      "title": "Model Predictive Control for constrained navigation of autonomous vehicles",
+      "event": "IEEE ITSS Italian Chapter Annual Meeting",
+      "type": "invited talk",
+      "location": "Universitá di Genova, Italy",
+      "date": "23/10/2024",
+      "year": "2024",
+      "description": " This talk presents model predictive control methods for constrained navigation of autonomous vehicles in partially unknown environments. It focuses on how multi-trajectory MPC can balance safety and performance by combining an exploiting trajectory for task execution with a safe trajectory that guarantees obstacle avoidance and recursive feasibility.",
+      "pdf": "assets/presentations/ITSS_mtMPC.pdf",
+      "video": "",
+      "tags": ["MPC", "multi-trajectory MPC", "UAVs", "time-varying environments", "safety-critical systems"]
     }
   ]
 }
