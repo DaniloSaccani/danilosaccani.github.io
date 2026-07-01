@@ -13,25 +13,25 @@
     {
       "category": "PhD courses",
       "title": "EECI PhD course: Neural Networks for Optimal Control",
-      "role": "Tutorial / course support",
-      "institution": "EECI / TODO",
-      "period": "TODO",
-      "description": "Editable entry for PhD-level teaching activities on neural networks for optimal control.",
-      "tags": ["optimal control", "neural networks", "PhD course"]
+      "role": "Lecturer and organizer",
+      "institution": "IGSC (International Graduate School on Control)",
+      "period": "2025",
+      "description": "Lecturer and organizer of a PhD course on neural network-based optimal control, covering closed-loop parametrizations, nonlinear stability tools, and performance-boosting methods for designing high-performance controllers with embedded stability and robustness guarantees.",
+      "tags": ["optimal control", "neural networks", "PhD course", "stability guarantees"]
     },
     {
       "category": "tutorials",
-      "title": "ETH DMPC summer course",
-      "role": "Tutorial / course support",
-      "institution": "ETH Zurich / TODO",
-      "period": "TODO",
-      "description": "Editable entry for summer course activities on distributed model predictive control.",
-      "tags": ["Distributed MPC", "summer course"]
+      "title": "Distributed MPC course",
+      "role": "Lecturer and organizer",
+      "institution": "ETH Zurich",
+      "period": "2024",
+      "description": "Lecturer and organizer of a course on distributed model predictive control for large-scale and networked systems, covering cooperative and non-cooperative DMPC algorithms, distributed optimization, terminal ingredients, and distributed system-level synthesis.",
+      "tags": ["Distributed MPC", "summer course", "multi-agent systems", "safety-critical systems"]
     },
     {
       "category": "workshops",
       "title": "ECC workshops co-organization",
-      "role": "Co-organizer",
+      "role": "Co-organizer and speaker",
       "institution": "European Control Conference / Reykjavik, Iceland",
       "period": "2026",
       "description": "Workshop on Distributed MPC for Multi-Agent Systems",
