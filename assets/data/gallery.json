@@ -16,7 +16,7 @@
   {
     "title": "Tethered drone experiments",
     "caption": "Tethered aerial platforms provide a controlled setting for testing safety-critical control methods and learning-based adaptation.",
-    "image": "assets/img/lab/tethered-drone.jpg",
+    "image": "assets/img/lab/tethered-drone.png",
     "video": "",
     "tags": ["Safe learning", "Predictive safety filters", "Robustness"]
   },
