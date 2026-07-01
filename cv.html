@@ -42,8 +42,10 @@
       <div class="container narrow">
         <p class="eyebrow">Curriculum vitae</p>
         <h1>Academic CV and summary.</h1>
-        <!--<p class="lead">The PDF remains the main CV. The sections below are short editable highlights for the website.
-        </p>-->
+        <p class="lead">
+          Postdoctoral researcher at EPFL working on learning-based control with provable guarantees,
+          with a focus on model predictive control, safe learning, distributed control, and reliable autonomy.
+        </p>
         <div class="button-row">
           <a class="button primary" href="cv/cv.pdf" target="_blank" rel="noopener">Open CV PDF</a>
           <a class="button" href="cv/cv.pdf" download>Download CV</a>
@@ -55,8 +57,26 @@
       <div class="container cv-layout">
         <div class="cv-summary">
           <article class="cv-block">
+            <h2>Profile</h2>
+            <p>
+              I am a postdoctoral researcher in learning-based control with provable guarantees,
+              specializing in model predictive control, stability-aware neural controllers, and safe
+              autonomous systems. My research combines theoretical control guarantees with robotic
+              applications, including UAVs, autonomous vehicles, and multi-agent systems.
+            </p>
+          </article>
+
+          <article class="cv-block">
             <h2>Current position</h2>
-            <p>Postdoctoral Researcher, DECODE group, EPFL.</p>
+            <ul class="timeline-list">
+              <li>
+                <span class="timeline-date">2023 &ndash; present</span>
+                <span>
+                  Postdoctoral Researcher, École Polytechnique Fédérale de Lausanne (EPFL),
+                  Lausanne, Switzerland.
+                </span>
+              </li>
+            </ul>
           </article>
 
           <article class="cv-block">
@@ -64,10 +84,11 @@
             <ul class="clean-list">
               <li>Model Predictive Control</li>
               <li>Safe learning-based control</li>
-              <li>Distributed MPC</li>
-              <li>Neural controllers with guarantees</li>
-              <li>Robustness, stability, dissipativity</li>
-              <li>Multi-agent systems</li>
+              <li>Neural controllers with formal guarantees</li>
+              <li>Online adaptation of policies in safety-critical systems</li>
+              <li>Distributed control and multi-agent systems</li>
+              <li>Robustness, stability, and dissipativity</li>
+              <li>Robotic systems and autonomous vehicles</li>
             </ul>
           </article>
 
@@ -75,12 +96,24 @@
             <h2>Education</h2>
             <ul class="timeline-list">
               <li>
-                <span class="timeline-date">2023</span>
-                <span>Ph.D. in Information Technology / Systems and Control, Politecnico di Milano.</span>
+                <span class="timeline-date">2019 &ndash; 2023</span>
+                <span>
+                  Ph.D. with honour, Information Technology, Politecnico di Milano.
+                  Thesis: <em>Model Predictive Control for Constrained Navigation of Autonomous Vehicles</em>.
+                </span>
               </li>
               <li>
-                <span class="timeline-date">TODO</span>
-                <span>Add other degrees here.</span>
+                <span class="timeline-date">2016 &ndash; 2019</span>
+                <span>
+                  M.Sc. in Automation and Control Engineering, Politecnico di Milano,
+                  110/110 cum laude.
+                </span>
+              </li>
+              <li>
+                <span class="timeline-date">2010 &ndash; 2014</span>
+                <span>
+                  B.Sc. in Mechanical Engineering, Politecnico di Milano.
+                </span>
               </li>
             </ul>
           </article>
@@ -89,19 +122,134 @@
             <h2>Experience</h2>
             <ul class="timeline-list">
               <li>
-                <span class="timeline-date">Current</span>
-                <span>Postdoctoral Researcher, EPFL.</span>
+                <span class="timeline-date">2023 &ndash; present</span>
+                <span>
+                  Postdoctoral Researcher, EPFL. Research on data-driven control,
+                  learning-based control, and control algorithms with formal guarantees.
+                </span>
               </li>
               <li>
-                <span class="timeline-date">TODO</span>
-                <span>Add previous appointments or visits here.</span>
+                <span class="timeline-date">2022</span>
+                <span>
+                  Visiting Ph.D. Student, ETH Zurich. Research visit in the group of
+                  Prof. Melanie N. Zeilinger on distributed control of multi-agent systems
+                  and MPC for robotic systems.
+                </span>
+              </li>
+              <li>
+                <span class="timeline-date">2020 &ndash; 2022</span>
+                <span>
+                  Teaching Assistant, Politecnico di Milano, for the course
+                  <em>Fondamenti di Automatica</em>.
+                </span>
+              </li>
+              <li>
+                <span class="timeline-date">2019</span>
+                <span>
+                  Research Assistant, Politecnico di Milano. Modeling and development
+                  of control systems in MATLAB and ROS for safety-driven autonomous control.
+                </span>
+              </li>
+              <li>
+                <span class="timeline-date">2019</span>
+                <span>
+                  Adjunct Professor, Fondazione Istituto Tecnico Superiore per le Nuove
+                  Tecnologie della Vita. Lecturer for a Finite Element Analysis computer laboratory.
+                </span>
+              </li>
+              <li>
+                <span class="timeline-date">2014 &ndash; 2016</span>
+                <span>
+                  R&amp;D Mechanical Engineer, Renova s.r.l. Mechanical design, prototyping,
+                  technical drawings, BOM management, and development of custom solutions
+                  for web tension control systems.
+                </span>
               </li>
             </ul>
           </article>
 
           <article class="cv-block">
-            <h2>Selected service and teaching</h2>
-            <p>TODO: add selected courses, workshops, reviewing activities, and academic service.</p>
+            <h2>Technical skills</h2>
+            <ul class="clean-list">
+              <li><strong>Programming:</strong> Python, MATLAB, ROS, C++</li>
+              <li><strong>Control:</strong> MPC, robust control, distributed MPC, learning-based control</li>
+              <li><strong>Learning:</strong> reinforcement learning, imitation learning, stability-aware neural policies</li>
+              <li><strong>Tools:</strong> PyTorch, CasADi, cvxpy, Gazebo, Simulink</li>
+              <li><strong>Optimization:</strong> convex optimization and nonlinear programming</li>
+            </ul>
+          </article>
+
+          <article class="cv-block">
+            <h2>Selected publications</h2>
+            <ul class="clean-list">
+              <li>
+                <em>Homothetic Tube Model Predictive Control with Multi-Step Predictors</em>,
+                IEEE Control Systems Letters, 2023.
+              </li>
+              <li>
+                <em>Multitrajectory Model Predictive Control for Safe UAV Navigation in an Unknown Environment</em>,
+                IEEE Transactions on Control Systems Technology, 2022.
+              </li>
+              <li>
+                <em>Learning-Based Predictive Control of the Cooling System of a Large Business Centre</em>,
+                Control Engineering Practice, 2020.
+              </li>
+              <li>
+                <em>Model Predictive Control for Multi-Agent Systems under Limited Communication and Time-Varying Network Topology</em>,
+                IEEE CDC, 2023.
+              </li>
+              <li>
+                <em>Optimal Distributed Control with Stability Guarantees by Training a Network of Neural Closed-Loop Maps</em>,
+                IEEE CDC, 2024.
+              </li>
+            </ul>
+          </article>
+
+          <article class="cv-block">
+            <h2>Teaching and academic service</h2>
+            <ul class="clean-list">
+              <li>
+                Lecturer and organizer of the Distributed MPC course at ETH Zurich, 2024.
+              </li>
+              <li>
+                Lecturer and organizer of the Neural Networks for Optimal Control course
+                for the International Graduate School on Control, EPFL, 2025.
+              </li>
+              <li>
+                Teaching assistant for four semesters at Politecnico di Milano for
+                <em>Fondamenti di Automatica</em>, a foundational course in linear system theory
+                and automatic control.
+              </li>
+              <li>
+                Speaker and organizer of the ECC workshop
+                <em>Neural Network Control with Stability and Performance Guarantees</em>.
+              </li>
+              <li>
+                Reviewer for more than 50 submissions to international control journals and conferences,
+                including CDC, ECC, ACC, L-CSS, IEEE TAC, IEEE TCST, and Automatica.
+              </li>
+            </ul>
+          </article>
+
+          <article class="cv-block">
+            <h2>Awards and recognitions</h2>
+            <ul class="clean-list">
+              <li>
+                PoliMi Springer Briefs Annual Award for the best Ph.D. theses at Politecnico di Milano.
+              </li>
+              <li>
+                IEEE Intelligent Transportation Systems Society Italy Section Best Dissertation Award 2024,
+                finalist.
+              </li>
+            </ul>
+          </article>
+
+          <article class="cv-block">
+            <h2>Languages</h2>
+            <ul class="clean-list">
+              <li><strong>Italian:</strong> native speaker</li>
+              <li><strong>English:</strong> proficient user</li>
+            </ul>
           </article>
         </div>
 
