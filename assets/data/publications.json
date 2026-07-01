@@ -6,13 +6,11 @@
       "authors": "Sabrina Bodmer, Danilo Saccani, Melanie N. Zeilinger, Andrea Carron",
       "venue": "arXiv preprint",
       "year": "2026",
-      "type": "preprint",
+      "type": "journal",
       "status": "submitted to Transaction Control Systems Technology",
       "links": {
         "pdf": "TODO",
         "arxiv": "TODO",
-        "doi": "TODO",
-        "code": "TODO",
         "slides": ""
       },
       "tags": ["MPC", "multi-agent systems", "safety", "distributed control"]
@@ -20,9 +18,9 @@
     {
       "title": "Safety-Aware Performance Boosting for Constrained Nonlinear Systems",
       "authors": "Danilo Saccani, Haoming Shen, Luca Furieri, Giancarlo Ferrari-Trecate",
-      "venue": "arXiv preprint",
+      "venue": "2026 European Control Conference (ECC)",
       "year": "2026",
-      "type": "preprint",
+      "type": "conference",
       "status": "accepted ECC 2026",
       "links": {
         "pdf": "https://arxiv.org/pdf/2603.19361",
@@ -36,9 +34,9 @@
     {
       "title": "Stability-Preserving Online Adaptation of Neural Closed-loop Maps",
       "authors": "Danilo Saccani, Luca Furieri, Giancarlo Ferrari-Trecate",
-      "venue": "arXiv preprint",
+      "venue": "2026 European Control Conference (ECC)",
       "year": "2026",
-      "type": "preprint",
+      "type": "conference",
       "status": "accepted ECC 2026",
       "links": {
         "pdf": "https://arxiv.org/pdf/2603.22469",
@@ -68,9 +66,9 @@
     {
       "title": "Learning stabilising policies for constrained nonlinear systems",
       "authors": "Daniele Ravasio, Danilo Saccani, Marcello Farina, Giancarlo Ferrari-Trecate",
-      "venue": "arXiv preprint",
+      "venue": "2026 European Control Conference (ECC)",
       "year": "2025",
-      "type": "preprint",
+      "type": "conference",
       "status": "accepted ECC 2026",
       "links": {
         "pdf": "https://arxiv.org/pdf/2511.06832",
@@ -84,9 +82,9 @@
     {
       "title": "Constrained Performance Boosting Control for Nonlinear Systems via ADMM",
       "authors": "Gianluca Giacomelli, Danilo Saccani, Siep Weiland, Giancarlo Ferrari-Trecate, Valentina Breschi",
-      "venue": "arXiv preprint",
-      "year": "2025",
-      "type": "preprint",
+      "venue": "2026 IFAC World Congress",
+      "year": "2026",
+      "type": "conference",
       "status": "accepted IFAC 2026",
       "links": {
         "pdf": "https://arxiv.org/pdf/2511.02389",
@@ -114,9 +112,9 @@
       "tags": ["distributed control", "safe learning", "neural control", "Neur-SLS", "stability"]
     },
     {
-      "title": "Unconstrained Learning of Networked Nonlinear Controllers with Closed-loop Stability Guarantees",
+      "title": "Unconstrained learning of networked nonlinear systems via free parametrization of stable interconnected operators",
       "authors": "Leonardo Massai, Danilo Saccani, Luca Furieri, Giancarlo Ferrari-Trecate",
-      "venue": "2024 European Control Conference (ECC), pp. 651–656",
+      "venue": "2024 European Control Conference (ECC)",
       "year": "2024",
       "type": "conference",
       "status": "published",
@@ -292,9 +290,9 @@
     {
       "title": "Risk-Aware Stability-Preserving Design of Neural Controllers with Conformal Verification",
       "authors": "Laura Meroi, Sabri El Amrani, Danilo Saccani, Dario Piga, Giancarlo Ferrari-Trecate",
-      "venue": "",
+      "venue": "2026 IEEE Conference on Decision and Control (CDC)",
       "year": "2026",
-      "type": "preprint",
+      "type": "conference",
       "status": "submitted CDC 2026",
       "links": {
         "pdf": "",
