@@ -10,7 +10,7 @@
     "title": "Drone flight experiments",
     "caption": "Flight experiments provide a concrete testbed for studying safety, robustness, and performance in autonomous systems.",
     "image": "assets/img/lab/drone-flying.jpg",
-    "video": "",
+    "video": "assets/videos/drone_demo.mp4",
     "tags": ["Autonomy", "Safety", "Robust control", "MPC", "Exploration"]
   },
   {
