@@ -1,5 +1,6 @@
 (() => {
   const DATA_PATHS = {
+    gallery: "assets/data/gallery.json",
     publications: "assets/data/publications.json",
     presentations: "assets/data/presentations.json",
     teaching: "assets/data/teaching.json"
@@ -43,6 +44,7 @@
     setCurrentYear();
     setupImageFallbacks();
     setupPdfViewers();
+    renderGallery();
     renderPublications();
     renderPresentations();
     renderTeaching();
@@ -99,7 +101,16 @@
   }
 
   function setupImageFallbacks() {
-    document.querySelectorAll("[data-fallback-image]").forEach((image) => {
+    enableImageFallbacks(document);
+  }
+
+  function enableImageFallbacks(scope) {
+    scope.querySelectorAll("[data-fallback-image]").forEach((image) => {
+      if (image.dataset.fallbackReady === "true") {
+        return;
+      }
+
+      image.dataset.fallbackReady = "true";
       const shell = image.closest("[data-image-shell]");
       image.addEventListener("error", () => {
         if (shell) {
@@ -108,6 +119,56 @@
         image.removeAttribute("src");
       });
     });
+  }
+
+  async function renderGallery() {
+    const root = document.querySelector("[data-gallery-root]");
+    if (!root) {
+      return;
+    }
+
+    try {
+      const data = await loadJson(DATA_PATHS.gallery);
+      const entries = Array.isArray(data) ? data : data.gallery || [];
+      if (!entries.length) {
+        root.innerHTML = renderStatus("No experiment gallery items have been added yet.");
+        return;
+      }
+
+      root.innerHTML = entries.map(renderGalleryCard).join("");
+      enableImageFallbacks(root);
+    } catch (error) {
+      root.innerHTML = renderStatus(`Could not load the experiment gallery from <code>${DATA_PATHS.gallery}</code>. Check that the JSON file exists and is valid.`);
+      console.error(error);
+    }
+  }
+
+  function renderGalleryCard(entry) {
+    const title = entry.title || "Untitled gallery item";
+    const image = entry.image || "";
+    const imageMarkup = image
+      ? `<img src="${escapeAttribute(image)}" alt="${escapeAttribute(title)}" loading="lazy" data-fallback-image>`
+      : "";
+    const videoMarkup = entry.video
+      ? `<a class="small-link" href="${escapeAttribute(entry.video)}" target="_blank" rel="noopener">Watch demo</a>`
+      : "";
+
+    return `
+      <article class="gallery-card">
+        <div class="gallery-media" data-image-shell>
+          ${imageMarkup}
+          <div class="gallery-placeholder" aria-hidden="true">
+            <span>Image pending</span>
+          </div>
+        </div>
+        <div class="gallery-body">
+          <h3>${escapeHtml(title)}</h3>
+          <p>${escapeHtml(entry.caption || "Add a short caption in assets/data/gallery.json.")}</p>
+          ${renderTags(entry.tags)}
+          ${videoMarkup ? `<div class="gallery-actions">${videoMarkup}</div>` : ""}
+        </div>
+      </article>
+    `;
   }
 
   async function setupPdfViewers() {

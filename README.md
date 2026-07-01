@@ -32,6 +32,57 @@ cv/cv.pdf
 
 The CV page links to this file and embeds it in the page. If the PDF is missing on GitHub Pages, the page shows a placeholder message.
 
+## Update the experiment gallery
+
+The homepage section "From theory to experiments" is loaded from:
+
+```text
+assets/data/gallery.json
+```
+
+Put lab pictures in:
+
+```text
+assets/img/lab/
+```
+
+Put videos in:
+
+```text
+assets/videos/
+```
+
+Recommended image filenames:
+
+```text
+working-on-drone.jpg
+drone-flying.jpg
+tethered-drone.jpg
+microcars.jpg
+```
+
+Recommended video filename:
+
+```text
+microcars-demo.mp4
+```
+
+Each gallery entry supports:
+
+```json
+{
+  "title": "",
+  "caption": "",
+  "image": "",
+  "video": "",
+  "tags": []
+}
+```
+
+If an image is missing, the site shows a clean placeholder. If the `video` field is empty, the "Watch demo" button is hidden. Do not autoplay videos.
+
+If other people appear in photos, make sure you have their consent before publishing, or crop/blur faces before uploading the images.
+
 ## Add or edit publications
 
 Edit:

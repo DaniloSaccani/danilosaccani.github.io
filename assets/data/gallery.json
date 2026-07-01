@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Working on aerial platforms",
+    "caption": "Hands-on work with aerial robotic platforms used to connect predictive control algorithms with real experimental constraints.",
+    "image": "assets/img/lab/working-on-drone.jpg",
+    "video": "",
+    "tags": ["MPC", "Aerial robotics", "Experiments"]
+  },
+  {
+    "title": "Drone flight experiments",
+    "caption": "Flight experiments provide a concrete testbed for studying safety, robustness, and performance in autonomous systems.",
+    "image": "assets/img/lab/drone-flying.jpg",
+    "video": "",
+    "tags": ["Autonomy", "Safety", "Robust control"]
+  },
+  {
+    "title": "Tethered drone experiments",
+    "caption": "Tethered aerial platforms provide a controlled setting for testing safety-critical control methods and learning-based adaptation.",
+    "image": "assets/img/lab/tethered-drone.jpg",
+    "video": "",
+    "tags": ["Safe learning", "Predictive safety filters", "Robustness"]
+  },
+  {
+    "title": "Small-scale autonomous vehicles",
+    "caption": "Small-scale vehicle platforms and student projects are useful testbeds for MPC, distributed coordination, and learning-based control.",
+    "image": "assets/img/lab/microcars.jpg",
+    "video": "assets/videos/microcars-demo.mp4",
+    "tags": ["Distributed MPC", "Multi-agent systems", "Autonomous vehicles"]
+  }
+]
