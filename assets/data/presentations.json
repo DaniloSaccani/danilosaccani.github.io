@@ -1,0 +1,53 @@
+{
+  "_comment": "To add a new presentation, upload the PDF to assets/presentations/ and add a corresponding entry in the presentations array.",
+  "presentations": [
+    {
+      "title": "Predictive Safety Filters and Learning-Based Control",
+      "event": "TODO seminar or conference",
+      "type": "seminar",
+      "location": "TODO",
+      "date": "TODO",
+      "year": "2026",
+      "description": "Editable placeholder for a talk on predictive safety filters and learning-based control.",
+      "pdf": "assets/presentations/example-presentation.pdf",
+      "video": "",
+      "tags": ["MPC", "Safe Learning", "safety filters"]
+    },
+    {
+      "title": "Distributed MPC for Multi-Agent Systems",
+      "event": "TODO workshop or course",
+      "type": "workshop",
+      "location": "TODO",
+      "date": "TODO",
+      "year": "2025",
+      "description": "Editable placeholder for a presentation on distributed MPC, connectivity constraints, and multi-agent coordination.",
+      "pdf": "assets/presentations/example-presentation.pdf",
+      "video": "",
+      "tags": ["Distributed MPC", "Multi-Agent Systems", "connectivity"]
+    },
+    {
+      "title": "Neural Controllers with Stability Guarantees",
+      "event": "TODO invited talk",
+      "type": "invited talk",
+      "location": "TODO",
+      "date": "TODO",
+      "year": "2025",
+      "description": "Editable placeholder for a talk on neural controllers, stable operators, and closed-loop guarantees.",
+      "pdf": "assets/presentations/example-presentation.pdf",
+      "video": "",
+      "tags": ["Neural Control", "stability", "robustness"]
+    },
+    {
+      "title": "Certificate Reservoirs for Reliable Lifelong Control",
+      "event": "TODO seminar",
+      "type": "seminar",
+      "location": "TODO",
+      "date": "TODO",
+      "year": "2026",
+      "description": "Editable placeholder for ongoing research on certified flexibility and online adaptation.",
+      "pdf": "assets/presentations/example-presentation.pdf",
+      "video": "",
+      "tags": ["Safe Learning", "certificates", "online adaptation"]
+    }
+  ]
+}

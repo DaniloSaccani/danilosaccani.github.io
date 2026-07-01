@@ -1,0 +1,50 @@
+{
+  "_comment": "Edit the entries array to update teaching, tutorials, workshops, service, and reviewing.",
+  "entries": [
+    {
+      "category": "teaching",
+      "title": "Fondamenti di Automatica",
+      "role": "Teaching assistant",
+      "institution": "TODO",
+      "period": "TODO",
+      "description": "Editable entry for teaching assistant activities in fundamental automatic control.",
+      "tags": ["control theory", "teaching"]
+    },
+    {
+      "category": "tutorials",
+      "title": "EECI PhD course: Neural Networks for Optimal Control",
+      "role": "Tutorial / course support",
+      "institution": "EECI / TODO",
+      "period": "TODO",
+      "description": "Editable entry for PhD-level teaching activities on neural networks for optimal control.",
+      "tags": ["optimal control", "neural networks", "PhD course"]
+    },
+    {
+      "category": "tutorials",
+      "title": "ETH DMPC summer course",
+      "role": "Tutorial / course support",
+      "institution": "ETH Zurich / TODO",
+      "period": "TODO",
+      "description": "Editable entry for summer course activities on distributed model predictive control.",
+      "tags": ["Distributed MPC", "summer course"]
+    },
+    {
+      "category": "workshops",
+      "title": "ECC workshops co-organization",
+      "role": "Co-organizer",
+      "institution": "European Control Conference / TODO",
+      "period": "TODO",
+      "description": "Editable entry for workshop co-organization activities.",
+      "tags": ["workshop", "organization"]
+    },
+    {
+      "category": "service",
+      "title": "Reviewing and academic service",
+      "role": "Reviewer / service",
+      "institution": "TODO",
+      "period": "Ongoing",
+      "description": "Editable entry for journal, conference, and community service.",
+      "tags": ["reviewing", "service"]
+    }
+  ]
+}

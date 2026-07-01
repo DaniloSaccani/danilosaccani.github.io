@@ -1,0 +1,165 @@
+{
+  "_comment": "Seed publication list for the website. Edit the publications array to add, remove, or reorder entries. Use TODO for details that still need verification.",
+  "publications": [
+    {
+      "title": "Multitrajectory Model Predictive Control for Safe UAV Navigation in an Unknown Environment",
+      "authors": "Danilo Saccani, Leonardo Cecchin, Lorenzo Fagiano",
+      "venue": "IEEE Transactions on Control Systems Technology",
+      "year": "TODO",
+      "type": "journal",
+      "status": "published",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["MPC", "multi-trajectory MPC", "UAV navigation", "safety"]
+    },
+    {
+      "title": "Homothetic Tube Model Predictive Control with Multi-Step Predictors",
+      "authors": "Danilo Saccani, Giancarlo Ferrari-Trecate, Melanie N. Zeilinger, Johannes Köhler",
+      "venue": "IEEE Control Systems Letters",
+      "year": "TODO",
+      "type": "journal",
+      "status": "published",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["Robust MPC", "tube MPC", "multi-step predictors"]
+    },
+    {
+      "title": "Learning Stabilising Policies for Constrained Nonlinear Systems",
+      "authors": "Daniele Ravasio, Danilo Saccani, Marcello Farina, Giancarlo Ferrari-Trecate",
+      "venue": "arXiv / TODO",
+      "year": "2025",
+      "type": "preprint",
+      "status": "preprint",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["Safe Learning", "Neural Control", "constrained systems"]
+    },
+    {
+      "title": "Safety-Aware Performance Boosting for Constrained Nonlinear Systems",
+      "authors": "Danilo Saccani, Haoming Shen, Luca Furieri, Giancarlo Ferrari-Trecate",
+      "venue": "arXiv / TODO",
+      "year": "2026",
+      "type": "preprint",
+      "status": "preprint",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["predictive safety filters", "Safe Learning", "constrained nonlinear systems"]
+    },
+    {
+      "title": "Stability-Preserving Online Adaptation of Neural Closed-Loop Maps",
+      "authors": "Danilo Saccani, Luca Furieri, Giancarlo Ferrari-Trecate",
+      "venue": "arXiv / TODO",
+      "year": "2026",
+      "type": "preprint",
+      "status": "preprint",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["Neural Control", "online adaptation", "stability"]
+    },
+    {
+      "title": "Optimal Distributed Control with Stability Guarantees by Training a Network of Neural Closed-Loop Maps",
+      "authors": "Danilo Saccani, Leonardo Massai, Luca Furieri, Giancarlo Ferrari-Trecate",
+      "venue": "TODO",
+      "year": "2024",
+      "type": "conference",
+      "status": "TODO",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["distributed control", "Neural Control", "stability"]
+    },
+    {
+      "title": "Model Predictive Control for Multi-Agent Systems Under Limited Communication and Time-Varying Network Topology",
+      "authors": "Danilo Saccani, Lorenzo Fagiano, Melanie N. Zeilinger, Andrea Carron",
+      "venue": "IEEE Conference on Decision and Control",
+      "year": "2023",
+      "type": "conference",
+      "status": "published",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["Distributed MPC", "Multi-Agent Systems", "connectivity"]
+    },
+    {
+      "title": "Multi-Agent Distributed Model Predictive Control with Connectivity Constraint",
+      "authors": "Andrea Carron, Danilo Saccani, Lorenzo Fagiano, Melanie N. Zeilinger",
+      "venue": "TODO",
+      "year": "2023",
+      "type": "conference",
+      "status": "TODO",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["Distributed MPC", "connectivity", "Multi-Agent Systems"]
+    },
+    {
+      "title": "Autonomous UAV Navigation in an Unknown Environment via Multi-Trajectory Model Predictive Control",
+      "authors": "Danilo Saccani, Lorenzo Fagiano",
+      "venue": "European Control Conference",
+      "year": "2021",
+      "type": "conference",
+      "status": "published",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["MPC", "multi-trajectory MPC", "UAV navigation"]
+    },
+    {
+      "title": "Model Predictive Control for Constrained Navigation of Autonomous Vehicles",
+      "authors": "Danilo Saccani",
+      "venue": "PhD thesis / TODO",
+      "year": "2023",
+      "type": "thesis",
+      "status": "published",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "slides": ""
+      },
+      "tags": ["MPC", "autonomous vehicles", "constrained navigation"]
+    }
+  ]
+}

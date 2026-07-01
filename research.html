@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research themes of Danilo Saccani: model predictive control, distributed MPC, stable neural controllers, and certificate reservoirs.">
+  <title>Research | Danilo Saccani</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Danilo Saccani homepage">
+        <span class="brand-mark" aria-hidden="true">DS</span>
+        <span class="brand-text">
+          <span class="brand-name">Danilo Saccani</span>
+          <span class="brand-subtitle">Control Theory &amp; Reliable Autonomy</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-links" id="site-nav">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container narrow">
+        <p class="eyebrow">Research</p>
+        <h1>Predictive control and certified learning for reliable autonomous systems.</h1>
+        <p class="lead">
+          My work studies control algorithms that can reason about the future, respect constraints, and adapt without giving up
+          the guarantees that make autonomous systems dependable.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container research-list">
+        <article class="theme-card" id="model-predictive-control">
+          <div class="theme-number">01</div>
+          <div class="theme-body">
+            <h2>Model Predictive Control</h2>
+            <p>
+              Model Predictive Control is the core methodology in my work. I use predictive optimization to design feedback laws
+              that explicitly account for constraints, uncertainty, safety, robustness, and performance. This makes MPC a natural
+              framework for autonomy, where controllers must plan ahead while reacting to changing conditions.
+            </p>
+            <p>
+              I am interested in constrained control, predictive safety filters, robust MPC, tube MPC, multi-trajectory MPC, and
+              the safety/performance tradeoffs that appear when theoretical guarantees meet real-time implementation.
+            </p>
+            <div class="tag-list" aria-label="Key ideas">
+              <span>Constrained control</span>
+              <span>Predictive safety filters</span>
+              <span>Robust MPC</span>
+              <span>Tube MPC</span>
+              <span>Multi-trajectory MPC</span>
+            </div>
+            <a class="text-link" href="publications.html">Related publications</a>
+          </div>
+        </article>
+
+        <article class="theme-card" id="distributed-mpc">
+          <div class="theme-number">02</div>
+          <div class="theme-body">
+            <h2>Distributed MPC and multi-agent systems</h2>
+            <p>
+              Many autonomous systems operate as teams: vehicles, robots, and networked devices must coordinate decisions while
+              using limited local information. My work on distributed MPC studies how agents can plan cooperatively while preserving
+              collision avoidance, connectivity constraints, and stability under limited communication.
+            </p>
+            <p>
+              Topics include plug-and-play operation, time-varying communication graphs, decentralized contracts, and control
+              architectures that remain meaningful when the network itself changes over time.
+            </p>
+            <div class="tag-list" aria-label="Key ideas">
+              <span>Multi-agent systems</span>
+              <span>Collision avoidance</span>
+              <span>Connectivity</span>
+              <span>Plug-and-play</span>
+              <span>Decentralized contracts</span>
+            </div>
+            <a class="text-link" href="publications.html">Related publications</a>
+          </div>
+        </article>
+
+        <article class="theme-card" id="stable-neural-controllers">
+          <div class="theme-number">03</div>
+          <div class="theme-body">
+            <h2>Stable neural controllers</h2>
+            <p>
+              Learning can improve control performance, but autonomous systems still need formal guarantees. I study neural
+              controllers with stability and robustness guarantees, including Neural System Level Synthesis, stable operators,
+              and internal-model-control-inspired architectures.
+            </p>
+            <p>
+              The goal is to use learning where it is useful, while keeping the closed-loop properties that make the controller
+              reliable: stability, robustness, and interpretable performance limits.
+            </p>
+            <div class="tag-list" aria-label="Key ideas">
+              <span>Neural control</span>
+              <span>Stability guarantees</span>
+              <span>Robustness</span>
+              <span>System Level Synthesis</span>
+              <span>Stable operators</span>
+            </div>
+            <a class="text-link" href="publications.html">Related publications</a>
+          </div>
+        </article>
+
+        <article class="theme-card" id="certificate-reservoirs">
+          <div class="theme-number">04</div>
+          <div class="theme-body">
+            <h2>Certificate reservoirs</h2>
+            <p>
+              Certificate reservoirs are an ongoing research direction. Static certificates often enforce safety and stability
+              through conservative margins. The idea of a certificate reservoir is to store unused certified margin as a dynamic
+              budget that can later be spent to adapt online while keeping hard constraints intact.
+            </p>
+            <p>
+              The key principle is that learning does not create safety by itself: certificates create certified flexibility,
+              and learning allocates it. I am exploring how this viewpoint can support reliable lifelong control without
+              overclaiming what adaptation can guarantee on its own.
+            </p>
+            <div class="tag-list" aria-label="Key ideas">
+              <span>Safe learning</span>
+              <span>Certified flexibility</span>
+              <span>Online adaptation</span>
+              <span>Hard constraints</span>
+              <span>Research direction</span>
+            </div>
+            <a class="text-link" href="publications.html">Related publications</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span data-current-year></span> Danilo Saccani.</p>
+      <div class="footer-links">
+        <a href="mailto:danilo.saccani09@gmail.com">Email</a>
+        <a href="https://scholar.google.com/citations?user=KbvNgogAAAAJ&amp;hl=it" target="_blank" rel="noopener noreferrer">Scholar</a>
+        <a href="https://github.com/DaniloSaccani" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://orcid.org/0000-0002-3059-9160" target="_blank" rel="noopener noreferrer">ORCID</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

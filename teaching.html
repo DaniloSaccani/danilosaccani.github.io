@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Teaching, tutorials, workshops, and service by Danilo Saccani.">
+  <title>Teaching | Danilo Saccani</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Danilo Saccani homepage">
+        <span class="brand-mark" aria-hidden="true">DS</span>
+        <span class="brand-text">
+          <span class="brand-name">Danilo Saccani</span>
+          <span class="brand-subtitle">Control Theory &amp; Reliable Autonomy</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-links" id="site-nav">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container narrow">
+        <p class="eyebrow">Teaching and service</p>
+        <h1>Courses, tutorials, workshops, and academic service.</h1>
+        <p class="lead">
+          Entries on this page are loaded from <code>assets/data/teaching.json</code>, so they can be updated without touching
+          the HTML.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="teaching-root" class="dynamic-root" data-teaching-root>
+          <p class="status-message">Loading teaching and service entries...</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span data-current-year></span> Danilo Saccani.</p>
+      <div class="footer-links">
+        <a href="mailto:danilo.saccani09@gmail.com">Email</a>
+        <a href="https://scholar.google.com/citations?user=KbvNgogAAAAJ&amp;hl=it" target="_blank" rel="noopener noreferrer">Scholar</a>
+        <a href="https://github.com/DaniloSaccani" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://orcid.org/0000-0002-3059-9160" target="_blank" rel="noopener noreferrer">ORCID</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
