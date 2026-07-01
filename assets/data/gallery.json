@@ -11,7 +11,7 @@
     "caption": "Flight experiments provide a concrete testbed for studying safety, robustness, and performance in autonomous systems.",
     "image": "assets/img/lab/drone-flying.jpg",
     "video": "",
-    "tags": ["Autonomy", "Safety", "Robust control", "MPC", "Exploration", "Unknown environments"]
+    "tags": ["Autonomy", "Safety", "Robust control", "MPC", "Exploration"]
   },
   {
     "title": "Tethered drone experiments",
