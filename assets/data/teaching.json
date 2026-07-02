@@ -30,12 +30,12 @@
     },
     {
       "category": "teaching",
-      "title": "Finite elements course",
+      "title": "Finite element analysis course",
       "role": "Teacher",
       "institution": "Fondazione Istituto Tecnico Superiore per le Nuove Tecnologie della Vita, Bergamo, Italy",
       "period": "2019",
       "description": "Instructor, Finite Element Analysis course. Taught practical sessions on finite element analysis, guiding students through numerical modelling, simulation workflows, and the interpretation of computational results for engineering problems.",
-      "tags": ["control theory", "teaching"]
+      "tags": ["Finite element analysis", "teaching"]
     },
     {
       "category": "workshops",
