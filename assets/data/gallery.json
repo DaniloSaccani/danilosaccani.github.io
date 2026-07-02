@@ -4,7 +4,7 @@
     "caption": "Hands-on work with aerial robotic platforms used to connect predictive control algorithms with real experimental constraints.",
     "image": "assets/img/lab/working-on-drone.jpg",
     "video": "",
-    "tags": ["MPC", "Aerial robotics", "Experiments"]
+    "tags": ["Aerial robotics", "Experiments", "Safety-critical systems"]
   },
   {
     "title": "Drone flight experiments",
