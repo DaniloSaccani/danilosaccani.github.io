@@ -5,7 +5,7 @@
       "category": "teaching",
       "title": "EECI PhD course: Neural Networks for Optimal Control",
       "role": "Lecturer and organizer",
-      "institution": "IGSC (International Graduate School on Control)",
+      "institution": "IGSC (International Graduate School on Control) at EPFL, Switzerland",
       "period": "2025",
       "description": "Lecturer and organizer of a PhD course on neural network-based optimal control, covering closed-loop parametrizations, nonlinear stability tools, and performance-boosting methods for designing high-performance controllers with embedded stability and robustness guarantees.",
       "tags": ["optimal control", "neural networks", "PhD course", "stability guarantees"]
@@ -14,7 +14,7 @@
       "category": "teaching",
       "title": "Distributed MPC course",
       "role": "Lecturer and organizer",
-      "institution": "ETH Zurich",
+      "institution": "ETH Zurich, Switzerland",
       "period": "2024",
       "description": "Lecturer and organizer of a course on distributed model predictive control for large-scale and networked systems, covering cooperative and non-cooperative DMPC algorithms, distributed optimization, terminal ingredients, and distributed system-level synthesis.",
       "tags": ["Distributed MPC", "summer course", "multi-agent systems", "safety-critical systems"]
@@ -23,9 +23,18 @@
       "category": "teaching",
       "title": "Fondamenti di Automatica",
       "role": "Teaching assistant",
-      "institution": "Politecnico di Milano",
+      "institution": "Politecnico di Milano, Italy",
       "period": "2020-2022",
       "description": "Teaching assistant for \"Fondamenti di Automatica\", supporting a course on dynamical systems, stability, transfer functions, frequency-domain analysis, and feedback control.",
+      "tags": ["control theory", "teaching"]
+    },
+    {
+      "category": "teaching",
+      "title": "Finite elements course",
+      "role": "Teacher",
+      "institution": "Fondazione Istituto Tecnico Superiore per le Nuove Tecnologie della Vita, Bergamo, Italy",
+      "period": "2019",
+      "description": "Instructor, Finite Element Analysis course. Taught practical sessions on finite element analysis, guiding students through numerical modelling, simulation workflows, and the interpretation of computational results for engineering problems.",
       "tags": ["control theory", "teaching"]
     },
     {
