@@ -439,8 +439,11 @@
 
   function renderTeachingEntry(entry) {
     const tags = renderTags(entry.tags);
-    const institution = entry.institution || "TODO";
-    const period = entry.period || "TODO";
+    const metaParts = [entry.role, entry.institution, entry.period]
+      .filter(hasDisplayValue)
+      .map(escapeHtml)
+      .join(" - ");
+    const meta = metaParts ? `<p class="teaching-meta">${metaParts}</p>` : "";
     const websiteLabel = entry.category === "workshops" ? "Workshop website" : "Website";
     const website = entry.url
       ? `<div class="teaching-actions"><a class="small-link" href="${escapeAttribute(entry.url)}" target="_blank" rel="noopener noreferrer">${websiteLabel}</a></div>`
@@ -449,7 +452,7 @@
     return `
       <article class="teaching-card">
         <h3>${escapeHtml(entry.title || "Untitled entry")}</h3>
-        <p class="teaching-meta">${escapeHtml(entry.role || "TODO")} - ${escapeHtml(institution)} - ${escapeHtml(period)}</p>
+        ${meta}
         <p>${escapeHtml(entry.description || "Add a short description in assets/data/teaching.json.")}</p>
         ${tags}
         ${website}
@@ -518,6 +521,10 @@
 
   function normalizeTag(tag) {
     return String(tag || "").trim().toLowerCase();
+  }
+
+  function hasDisplayValue(value) {
+    return Boolean(value && String(value).trim() && String(value).trim().toUpperCase() !== "TODO");
   }
 
   function titleCase(value) {
