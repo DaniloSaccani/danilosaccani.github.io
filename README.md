@@ -79,6 +79,33 @@ If an image is missing, the site shows a clean placeholder. If the `video` field
 
 If other people appear in photos, make sure you have their consent before publishing, or crop/blur faces before uploading the images.
 
+## Update research figures
+
+Each research topic has three figure slots on `research.html`. Put images in:
+
+```text
+assets/img/research/
+```
+
+Recommended filenames:
+
+```text
+mpc-prediction.jpg
+mpc-safety-filter.jpg
+mpc-tube.jpg
+dmpc-agents.jpg
+dmpc-communication.jpg
+dmpc-contracts.jpg
+neural-architecture.jpg
+neural-stability.jpg
+neural-adaptation.jpg
+certificates-margin.jpg
+certificates-reservoir.jpg
+certificates-learning.jpg
+```
+
+If a figure image is missing, the page shows a clean placeholder instead of a broken image.
+
 ## Add or edit publications
 
 Edit:

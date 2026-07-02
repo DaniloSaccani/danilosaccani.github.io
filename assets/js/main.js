@@ -118,6 +118,13 @@
         }
         image.removeAttribute("src");
       });
+
+      if (image.complete && image.naturalWidth === 0) {
+        if (shell) {
+          shell.classList.add("is-missing");
+        }
+        image.removeAttribute("src");
+      }
     });
   }
 
