@@ -3,15 +3,6 @@
   "entries": [
     {
       "category": "teaching",
-      "title": "Fondamenti di Automatica",
-      "role": "Teaching assistant",
-      "institution": "Politecnico di Milano",
-      "period": "2020-2022",
-      "description": "Teaching assistant for \"Fondamenti di Automatica\", supporting a course on dynamical systems, stability, transfer functions, frequency-domain analysis, and feedback control.",
-      "tags": ["control theory", "teaching"]
-    },
-    {
-      "category": "teaching",
       "title": "EECI PhD course: Neural Networks for Optimal Control",
       "role": "Lecturer and organizer",
       "institution": "IGSC (International Graduate School on Control)",
@@ -27,6 +18,15 @@
       "period": "2024",
       "description": "Lecturer and organizer of a course on distributed model predictive control for large-scale and networked systems, covering cooperative and non-cooperative DMPC algorithms, distributed optimization, terminal ingredients, and distributed system-level synthesis.",
       "tags": ["Distributed MPC", "summer course", "multi-agent systems", "safety-critical systems"]
+    },
+    {
+      "category": "teaching",
+      "title": "Fondamenti di Automatica",
+      "role": "Teaching assistant",
+      "institution": "Politecnico di Milano",
+      "period": "2020-2022",
+      "description": "Teaching assistant for \"Fondamenti di Automatica\", supporting a course on dynamical systems, stability, transfer functions, frequency-domain analysis, and feedback control.",
+      "tags": ["control theory", "teaching"]
     },
     {
       "category": "workshops",
