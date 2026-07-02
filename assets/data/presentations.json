@@ -3,9 +3,9 @@
   "presentations": [
     {
       "title": "Safety-Aware Performance Boosting for Constrained Nonlinear Systems",
-      "event": "conference",
+      "event": "ECC 2026",
       "type": "conference",
-      "location": "ECC 2026, Reykjavik, Iceland",
+      "location": "Reykjavik, Iceland",
       "date": "08-07-2026",
       "year": "2026",
       "description": "This talk presents a learning-based control approach for constrained nonlinear systems that improves closed-loop performance while preserving safety guarantees. The method combines a stabilizing safety mechanism with an adaptive performance layer, ensuring constraint satisfaction and stability even as the controller exploits learned behavior online.",
@@ -15,9 +15,9 @@
     },
     {
       "title": "Stability-Preserving Online Adaptation of Neural Closed-loop Maps",
-      "event": "conference",
+      "event": "ECC 2026",
       "type": "conference",
-      "location": "ECC 2026, Reykjavik, Iceland",
+      "location": "Reykjavik, Iceland",
       "date": "09-07-2026",
       "year": "2026",
       "description": "This talk presents a framework for safely adapting neural closed-loop maps online while preserving stability guarantees. The approach enables neural controllers to improve or adjust their behavior during operation without compromising the certified stability properties of the closed-loop system.",
@@ -27,9 +27,9 @@
     },
     {
       "title": "Homothetic tube model predictive control with multi-step predictors",
-      "event": "conference",
+      "event": "ACC 2024",
       "type": "conference",
-      "location": "ACC 2024, Toronto, Canada",
+      "location": "Toronto, Canada",
       "date": "13-07-2024",
       "year": "2024",
       "description": "This talk presents a tube-based model predictive control framework for uncertain systems using multi-step predictors. The approach combines homothetic tube parametrizations with learned or data-driven prediction models to reduce conservatism while maintaining robust constraint satisfaction.",
