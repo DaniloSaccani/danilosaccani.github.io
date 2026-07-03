@@ -24,7 +24,7 @@
     "title": "Small-scale autonomous vehicles",
     "caption": "Small-scale vehicle platforms and student projects are useful testbeds for MPC, distributed coordination, and learning-based control.",
     "image": "assets/img/lab/microcars.png",
-    "video": "https://www.youtube.com/watch?v=TODO",
+    "video": "https://anytime-plug-and-play.github.io/",
     "tags": ["Distributed MPC", "Multi-agent systems", "Autonomous vehicles"]
   }
 ]
