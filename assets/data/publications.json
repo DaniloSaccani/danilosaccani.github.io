@@ -2,12 +2,28 @@
   "_comment": "Seed publication list for the website. Edit the publications array to add, remove, or reorder entries. Use TODO for details that still need verification.",
   "publications": [
       {
+        "title": "Constrained performance boosting control for nonlinear systems",
+        "authors": "Gianluca Giacomelli, Danilo Saccani, Siep Weiland, Giancarlo Ferrari-Trecate, Valentina Breschi",
+        "venue": "Engineering Applications of Artificial Intelligence, Volume 182, Part 1",
+        "year": "2026",
+        "type": "journal",
+        "status": "published",
+        "links": {
+          "pdf": "https://arxiv.org/pdf/2511.02389",
+          "arxiv": "https://arxiv.org/abs/2511.02389",
+          "doi": "https://doi.org/10.1016/j.engappai.2026.115842",
+          "code": "",
+          "slides": ""
+        },
+        "tags": ["safe learning", "performance boosting", "ADMM", "constrained control", "neural control"]
+      },
+      {
         "title": "Risk-Aware Stability-Preserving Design of Neural Controllers with Conformal Verification",
         "authors": "Laura Meroi, Sabri El Amrani, Danilo Saccani, Dario Piga, Giancarlo Ferrari-Trecate",
-        "venue": "2026 IEEE Conference on Decision and Control (CDC)",
-        "year": "2026",
+        "venue": "2027 European Control Conference (ECC)",
+        "year": "2027",
         "type": "conference",
-        "status": "submitted CDC 2026",
+        "status": "submitted ECC 2027",
         "links": {
           "pdf": "TODO",
           "arxiv": "TODO",
@@ -94,22 +110,6 @@
         "slides": ""
       },
       "tags": ["safe learning", "constrained control", "neural control", "stability", "IMC"]
-    },
-    {
-      "title": "Constrained Performance Boosting Control for Nonlinear Systems via ADMM",
-      "authors": "Gianluca Giacomelli, Danilo Saccani, Siep Weiland, Giancarlo Ferrari-Trecate, Valentina Breschi",
-      "venue": "2026 IFAC World Congress",
-      "year": "2026",
-      "type": "conference",
-      "status": "accepted IFAC 2026",
-      "links": {
-        "pdf": "https://arxiv.org/pdf/2511.02389",
-        "arxiv": "https://arxiv.org/abs/2511.02389",
-        "doi": "https://doi.org/10.48550/arXiv.2511.02389",
-        "code": "",
-        "slides": ""
-      },
-      "tags": ["safe learning", "performance boosting", "ADMM", "constrained control", "neural control"]
     },
     {
       "title": "Optimal distributed control with stability guarantees by training a network of neural closed-loop maps",
