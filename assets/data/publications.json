@@ -20,10 +20,10 @@
       {
         "title": "Risk-Aware Stability-Preserving Design of Neural Controllers with Conformal Verification",
         "authors": "Laura Meroi, Sabri El Amrani, Danilo Saccani, Dario Piga, Giancarlo Ferrari-Trecate",
-        "venue": "2027 European Control Conference (ECC)",
+        "venue": "Automatica",
         "year": "2027",
-        "type": "conference",
-        "status": "submitted ECC 2027",
+        "type": "journal",
+        "status": "In preparation",
         "links": {
           "pdf": "TODO",
           "arxiv": "TODO",
@@ -41,11 +41,25 @@
       "type": "journal",
       "status": "submitted to Transaction on Control Systems Technology",
       "links": {
-        "pdf": "TODO",
-        "arxiv": "TODO",
+        "pdf": "https://arxiv.org/abs/2607.04215",
+        "arxiv": "https://arxiv.org/abs/2607.04215",
         "slides": ""
       },
       "tags": ["MPC", "multi-agent systems", "safety", "distributed MPC", "plug-and-play"]
+    },
+    {
+      "title": "Distributed Model Predictive Control with Connectivity-based Contracts\n",
+      "authors": "Jorit Geurts, Danilo Saccani, Melanie N. Zeilinger, Andrea Carron",
+      "venue": "arXiv preprint",
+      "year": "2026",
+      "type": "journal",
+      "status": "submitted to IEEE Robotics and Automation Letters (RA-L)",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2609.19912",
+        "arxiv": "https://arxiv.org/abs/2609.19912",
+        "slides": ""
+      },
+      "tags": ["MPC", "distributed MPC", "multi-agent systems", "connectivity", "safe control"]
     },
     {
       "title": "Safety-Aware Performance Boosting for Constrained Nonlinear Systems",

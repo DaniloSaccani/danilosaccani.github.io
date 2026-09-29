@@ -177,21 +177,26 @@
         <article class="theme-card" id="certificate-reservoirs">
           <div class="theme-number">04</div>
           <div class="theme-body">
-            <h2>Certificate reservoirs</h2>
+            <h2>Adaptive distributed control</h2>
             <p>
-              Certificate reservoirs are an ongoing research direction. Static certificates often enforce safety and stability
-              through conservative margins. The idea of a certificate reservoir is to store unused certified margin as a dynamic
-              budget that can later be spent to adapt online while keeping hard constraints intact.
+              Distributed control makes large-scale systems tractable by replacing network-wide coordination with local
+              conditions that can be enforced using limited information and communication. These conditions may take
+              different forms, including local performance bounds, geometric contracts, or compatibility constraints.
+              While effective, fixing them a priori can introduce conservatism and limit the ability of the system to
+              respond to changing tasks and interactions.
             </p>
             <p>
-              The key principle is that certificates create certified flexibility; learning decides how to allocate it. I am exploring how control certificates can turn conservative safety margins into certified flexibility, and how learning can allocate this flexibility online to improve performance while preserving guarantees.
+              I am interested in how such local conditions can be reconfigured online while preserving the global
+              guarantees they certify. This includes redistributing available performance flexibility across a network,
+              reshaping local contracts as interactions change, and preserving or reconstructing guarantees when agents
+              or controllers are updated, using only limited neighbor-to-neighbor communication.
             </p>
             <div class="tag-list" aria-label="Key ideas">
-              <span>Safe learning</span>
-              <span>Certified flexibility</span>
-              <span>Online adaptation</span>
-              <span>Hard constraints</span>
-              <span>Longlife control</span>
+              <span>Distributed control</span>
+              <span>Limited communication</span>
+              <span>Online reconfiguration</span>
+              <span>Local guarantees</span>
+              <span>Multi-agent systems</span>
             </div>
             <div class="research-figures" aria-label="Figure slots for certificate reservoirs">
               <figure class="research-figure" data-image-shell>
