@@ -1,7 +1,22 @@
 {
   "_comment": "Seed publication list for the website. Edit the publications array to add, remove, or reorder entries. Use TODO for details that still need verification.",
   "publications": [
-      {
+    {
+        "title": "Distributed Performance Boosting through Neural Control for Plug-and-Play Networks",
+        "authors": "Danilo Saccani, Leonardo Massai, Giancarlo Ferrari-Trecate",
+        "venue": "arXiv preprint",
+        "year": "2026",
+        "type": "journal",
+        "status": "submitted to Automatica",
+        "links": {
+        "pdf": "https://arxiv.org/abs/2610.23292",
+        "arxiv": "https://arxiv.org/abs/2610.23292",
+        "slides": ""
+      },
+      "tags": ["MPC", "multi-agent systems", "safety", "distributed MPC", "plug-and-play"]
+    },
+
+    {
         "title": "Constrained performance boosting control for nonlinear systems",
         "authors": "Gianluca Giacomelli, Danilo Saccani, Siep Weiland, Giancarlo Ferrari-Trecate, Valentina Breschi",
         "venue": "Engineering Applications of Artificial Intelligence, Volume 182, Part 1",
