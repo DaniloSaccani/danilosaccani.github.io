@@ -13,7 +13,7 @@
         "arxiv": "https://arxiv.org/abs/2610.23292",
         "slides": ""
       },
-      "tags": ["MPC", "multi-agent systems", "safety", "distributed MPC", "plug-and-play"]
+      "tags": ["safe learning", "multi-agent systems", "neural control", "distributed systems", "plug-and-play"]
     },
 
     {
