@@ -1,5 +1,23 @@
 {
-  "_comment": "Seed publication list for the website. Edit the publications array to add, remove, or reorder entries. Use TODO for details that still need verification.",
+  "_comment": "Seed publication list for the website. Edit the publications array to add, remove, or reorder entries. Use TODO for details that still need verification. Entries in _commentedPublications are excluded from the displayed publication list.",
+  "_commentedPublications": [
+    {
+      "title": "Risk-Aware Stability-Preserving Design of Neural Controllers with Conformal Verification",
+      "authors": "Laura Meroi, Sabri El Amrani, Danilo Saccani, Dario Piga, Giancarlo Ferrari-Trecate",
+      "venue": "in preparation",
+      "year": "2026",
+      "type": "journal",
+      "status": "In preparation",
+      "links": {
+        "pdf": "TODO",
+        "arxiv": "TODO",
+        "doi": "",
+        "code": "https://github.com/DecodEPFL/Conformal_PB",
+        "slides": ""
+      },
+      "tags": ["safe learning", "neural control", "conformal prediction", "risk-aware control", "stability"]
+    }
+  ],
   "publications": [
     {
         "title": "Distributed Performance Boosting through Neural Control for Plug-and-Play Networks",
@@ -31,22 +49,6 @@
           "slides": ""
         },
         "tags": ["safe learning", "performance boosting", "ADMM", "constrained control", "neural control"]
-      },
-      {
-        "title": "Risk-Aware Stability-Preserving Design of Neural Controllers with Conformal Verification",
-        "authors": "Laura Meroi, Sabri El Amrani, Danilo Saccani, Dario Piga, Giancarlo Ferrari-Trecate",
-        "venue": "in preparation",
-        "year": "2026",
-        "type": "journal",
-        "status": "In preparation",
-        "links": {
-          "pdf": "TODO",
-          "arxiv": "TODO",
-          "doi": "",
-          "code": "https://github.com/DecodEPFL/Conformal_PB",
-          "slides": ""
-        },
-        "tags": ["safe learning", "neural control", "conformal prediction", "risk-aware control", "stability"]
       },
       {
       "title": "Anytime Plug-and-Play Control with Contract-Based Distributed MPC",
